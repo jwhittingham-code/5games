@@ -12,11 +12,6 @@ class Player(pygame.sprite.Sprite):
 
     
         
-
-
-    def pewPew(self):
-        
-
     def update(self, dt):
         #--------------Player movement --------------------------------
         self.keys = pygame.key.get_pressed()
